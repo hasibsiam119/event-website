@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.a {
+    background-color: rgba(10, 157, 10, 0.799);
+    text-align: center;
+    color: white;
+    padding: 25px;
+    font-size: x-large;
+}
+
+.x {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: rgba(0, 0, 0, 0.697);
+    height: 50px;
+
+}
+
+nav ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: orangered;
+}
+
+h2 {
+    color: blue;
+}
+
+p {
+    padding-top: 20px;
+}
+
+.box {
+    padding-left: 18vw;
+    padding-right: 18vw;
+}
+
+.box1 {
+    /* border: 2px solid black; */
+    margin: 20px;
+    padding: 30px 15px;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.box2 {
+    /* border: 2px solid black; */
+    margin: 20px;
+    padding: 30px 15px;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.box3 {
+    /* border: 2px solid black; */
+    margin: 20px;
+    padding: 30px 15px;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.box4 {
+    /* border: 2px solid black; */
+    margin: 20px;
+    padding: 30px 15px;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.table {
+    display: grid;
+    grid-template-columns: 20% 40% 40%;
+    margin: 30PX 15px;
+
+    /* gap: 10px; */
+
+    /* border: 2px solid black; */
+}
+
+.item {
+    border: .5px solid rgba(73, 72, 72, 0.148);
+    padding: 10PX;
+    border-radius: 2PX;
+    color: rgba(0, 0, 0, 0.705);
+}
+
+.h {
+    font-weight: 500;
+    background-color: rgba(101, 94, 94, 0.093);
+}
+
+.s {
+    font-size: larger;
+    color: rgba(0, 0, 255, 0.826);
+    font-weight: 600;
+    padding: 10px 0;
+
+}
+
+.t {
+    font-size: medium;
+    font-weight: 400;
+    color: black;
+    padding: 10px 0;
+}
+
+.y {
+    padding: 20px 0;
+}
+
+form {
+    padding: 10%;
+}
+
+#send {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    /* color: rgb(106, 106, 253);
+     */
+     background-color: rgb(7, 132, 248);
+     color: white;
+     border: none;
+}
+
+input {
+    width: 100%;
+    margin: 20px 0;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+textarea {
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 5px;
+     border: 1px solid #ddd;
+}
+form input:focus,
+form textarea:focus{
+    border-color: rgb(0, 227, 227);
+    outline: none;
+}
+.footer{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.549);
+    color: white;
+   
+}
+
