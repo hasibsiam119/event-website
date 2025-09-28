@@ -102,7 +102,7 @@ p {
     padding: 10PX;
     border-radius: 2PX;
     color: rgba(0, 0, 0, 0.705);
-    overflow: auto;
+    overflow: scroll;
 }
 
 .h {
@@ -177,5 +177,6 @@ form textarea:focus{
   
     
 }
+
 
 
