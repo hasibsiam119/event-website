@@ -171,8 +171,9 @@ form textarea:focus{
 
 @media only screen and (max-width:455px) {
     .box{
-        padding: 2vw ;
+        padding: .1vw ;
     }
   
     
 }
+
